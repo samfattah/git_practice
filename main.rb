@@ -1,3 +1,6 @@
+require 'colorize'
+require 'pry'
+
 def puts_git(cmd)
     puts `git #{cmd} -h`
 end
